@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>PHP Test</title>
+  </head>
+  <body>
+    <?php 
+      function writeSecretSentence (string $amimal , string $something ): string{
+        return $amimal ." bowed before the ". $something;  
+      }
+      
+      echo writeSecretSentence("wolf" ,"moon" )
+    ?> 
+  </body>
+</html>
